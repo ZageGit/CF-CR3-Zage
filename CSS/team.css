@@ -51,4 +51,9 @@ nav {
 footer {
   background-color: #171717; }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap; }
+
 /*# sourceMappingURL=team.css.map */

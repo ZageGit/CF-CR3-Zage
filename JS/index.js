@@ -19,6 +19,7 @@ if (c=="Austria"){
 	cost = Math.round(d*150/(b+3)+50);
 		
 	}
+	
 
 	
 console.log((typeof a)+ " " + a);
