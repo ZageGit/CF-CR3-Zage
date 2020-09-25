@@ -213,3 +213,48 @@ span {
 .imgtest {
 	width:100%;
 }
+
+
+@media screen and (max-width:480px) {
+
+	body {
+		font-size:2em;
+		width:480px;
+	}
+
+	.headerbanner {
+		display:none;
+	}
+	
+	.inputheader {
+		padding:0% 5% 0% 5%;
+	}
+	.inputs {
+		flex-flow: column wrap;
+
+	}
+	.headerlogo {
+		height:100px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.imgtest {
+		height:1600px;
+	}
+	.middletext {
+		width:80%;
+	}
+	.middle {
+		padding-top: 16%;
+	}
+	.card {
+		width:100%;
+	}
+	.cardcontainer {
+		flex-flow: column wrap;
+	}
+	.navbartop {
+		font-size:2.5em;
+	}
+	
+}
