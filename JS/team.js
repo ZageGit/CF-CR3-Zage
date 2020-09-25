@@ -9,7 +9,7 @@ let nose =document.getElementById("container");
 for (let i = 0; i< employees.length; i++){
 	let head = document.createElement("div")
 	nose.appendChild(head);
-	head.setAttribute("class",employees[i].name);
+	head.setAttribute("class","teamcard");
 	head.innerHTML = ` <img class="teamimg" src='${employees[i].image}'><br>`+ employees[i].name + "<br>" + employees[i].email;
 
 	}

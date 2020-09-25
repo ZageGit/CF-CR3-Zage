@@ -14,4 +14,8 @@ var employees =[
 	"name":"Fritz",
 	"email":"fritz@index.com",
 	"image":"IMG/person3.jpg"
+},	{
+	"name":"Johannes",
+	"email":"test@index.com",
+	"image":"IMG/person4.jpg"
 }]
