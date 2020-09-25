@@ -75,4 +75,24 @@ footer {
 p {
   padding: 2%; }
 
+@media screen and (max-width: 480px) {
+  body {
+    width: 100%;
+    margin: 0;
+    font-size: 1.5em; }
+
+  .headerbanner {
+    display: none; }
+
+  .teamcard {
+    width: 60%; }
+
+  .headerlogo {
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .middletext {
+    font-size: 1.5em; } }
+
 /*# sourceMappingURL=team.css.map */

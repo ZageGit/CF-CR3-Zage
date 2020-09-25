@@ -219,7 +219,8 @@ span {
 
 	body {
 		font-size:2em;
-		width:480px;
+		width:100%;
+		margin:0;
 	}
 
 	.headerbanner {
@@ -243,18 +244,39 @@ span {
 	}
 	.middletext {
 		width:80%;
+		font-size: 1.5em;
 	}
 	.middle {
 		padding-top: 16%;
 	}
 	.card {
-		width:100%;
+		font-size: 1.5em;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	.cardcontainer {
 		flex-flow: column wrap;
 	}
 	.navbartop {
+		padding-right:5%;
 		font-size:2.5em;
 	}
-	
+	footer {
+		font-size:1.5em;
+	}
+	.footerlogo{
+		height:100px;
+	}
+	.container1 {
+		top:5%;
+	}
+	.navtextbot{
+		padding-right:5%;
+		font-size: 1.5em;
+	}
+	.footertext {
+		font-size:1.5em;
+		padding:0 5% 2% 5%;
+	}
 }
