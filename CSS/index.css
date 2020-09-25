@@ -1,0 +1,18 @@
+body {
+  width: 75%;
+  margin: 2% auto 2% auto; }
+
+header {
+  background-color: #FFF3F3; }
+
+.headerimages {
+  display: flex;
+  justify-content: space-around; }
+
+nav {
+  background-color: #8E1616; }
+
+.topcontent {
+  background-image: url("src=../IMG/banner.png"); }
+
+/*# sourceMappingURL=index.css.map */
