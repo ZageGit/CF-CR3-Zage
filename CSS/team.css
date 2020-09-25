@@ -73,7 +73,8 @@ footer {
   max-height: 150px; }
 
 p {
-  padding: 2%; }
+  padding: 2%;
+  font-weight: 600; }
 
 @media screen and (max-width: 480px) {
   body {
@@ -90,9 +91,13 @@ p {
   .headerlogo {
     height: 50px;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    font-size: 1em; }
 
-  .middletext {
-    font-size: 1.5em; } }
+  .teamcard0, .teamcard1, .teamcard2, .teamcard3 {
+    width: 50%;
+    font-size: 0.6em;
+    text-align: center;
+    font-weight: 600; } }
 
 /*# sourceMappingURL=team.css.map */
