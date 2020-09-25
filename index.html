@@ -10,97 +10,102 @@
 
 	<header>
 		<div class=headerimages>
-			<img src="IMG/logo.png" alt="LOGO">
+			<img class="headerlogo" src="IMG/logo.png" alt="LOGO">
 			<img src="IMG/banner.png" alt="Banner">
 		</div>
 
 		<nav class="navtop">
 			<a class="navbartop" href="index.html">Home</a>
-			<a class="navbartop" href="index.html">Tech</a>			
+			<a class="navbartop" href="index.html">Team</a>			
 		</nav>
 
 	</header>
 	<div class="topcontent">
 
-		<div class="container1">
+		<h1>Car Insurance</h1>
 
-			<h1>Great coverage begins with a custom quote</h1>
-
-		<div class="inputs">
-
-			<div class="inputcontainer">
-				<div class="yourname">
-					<p>Your name:</p>
-					<input type="text" name="name_input" placeholder="Your Name" id="name">
-				</div>
+		<div class="container1" id="test">
+			<div>
+				<h2 class="inputheader">Great coverage begins with a custom quote</h2>
 			</div>
+			
 
-			<div class="inputcontainer">
-				<div class="yourname">
-					<p>Age:</p>
-					<input type="text" name="age_input" placeholder="Your Age" id="age">
+			<div class="inputs">			
+				<div class="inputcontainer">
+					<div class="yourname">
+						<p class="inputheading">Your name:</p>
+						<input class="inputbox" type="text" name="name_input" placeholder="Your Name" id="name">
+					</div>
 				</div>
-			</div>
 
-			<div class="inputcontainer">
-				<div class="yourname">
-					<select name="Country" id="country">
-        				<option value="Austria">Austria</option>
-        				<option value="Hungary">Hungary</option>
-        				<option value="Greece">Greece</option>     
-    				</select>>
+				<div class="inputcontainer">
+					<div class="yourname">
+						<p class="inputheading">Age:</p>
+						<input class="inputbox"  type="text" name="age_input" placeholder="Your Age" id="age">
+					</div>
 				</div>
-			</div>
 
-			<div class="inputcontainer">
-				<div class="yourname">
-					<p>Horsepower of your car:</p>
-					<input type="text" name="horsepower_input" placeholder="Horsewpoer" id="HP">
+				<div class="inputcontainer">
+					<div class="yourname">
+						<p class="inputheading">Country:</p>
+						<select class="inputbox"  name="Country" id="country">
+	        				<option value="Austria">Austria</option>
+	        				<option value="Hungary">Hungary</option>
+	        				<option value="Greece">Greece</option>     
+	    				</select>
+					</div>
 				</div>
-			</div>
 
+				<div class="inputcontainer">
+					<div class="yourname">
+						<p class="inputheading">Horsepower of your car:</p>
+						<input class="inputbox"  type="text" name="horsepower_input" placeholder="Horsewpoer" id="HP">
+					</div>
+				</div>
 
+				
 		</div>
+				<a href="#" id="myButton">Calculate</a>
 
-		<input type="submit" id="submit">
-
-
-
-
-		<div  id="result"> Here comes the Result</div>
+				<div id="result"></div>
+		
 			
 		</div>
+		<div class="middle">
+			<div class="middletext">
+				<p class="bigtext">Un-complicating car coverage</p> 
+				<p>Understanding your coverage options shouldnt be so hard
+				We'll guide you through available coverage typesstarting with who and what is covered</p>
+			</div>
 
+	</div>
 
 	</div>
 
-	<div class="middle">
-		<p class="bigtext">Un-complicating car coverage</p>
-		<p>Understanding your coverage options shouldnt be so hard</p>
-		<p>We'll guide you through available coverage types</p>
-		<p class>starting with who and what is covered</p>
-
-
-	</div>
+	
 
 	<div class="cardcontainer">
 		
 		<div class="card">
-			<p>What comes standard</p>
-			<p>The coverage you need</p>
-			<p>Haken Bodily Injury Liability</p>
-			<p>Haken Property Damage</p>
-			<p>Haken Medical Payments</p>
-			<p>Benefits</p>
+			<p class="cardheadline">What comes standard</p>
+			<p class="cardheadlinefollow">The coverage you need</p>
+			<div class="cardmidline">
+				<p><span>✔️</span>Bodily Injury Liability</p>
+				<p><span>✔️</span>Property Damage</p>
+				<p><span>✔️</span>Medical Payments</p>
+			</div>
+			<p class="cardbotline">Benefits</p>
 			<p>12-month rate guaranteee | 24/7 customer service | Lifetime Repair Guarantee</p>
 		</div>
 		<div class="card">
-			<p>Add-on protection & coveerage</p>
-			<p>For more peace of mind</p>
-			<p>Haken Better Car Replacement</p>
-			<p>Towing & Labor</p>
-			<p>Rental Car Coverage</p>
-			<p>Earned Benefits</p>
+			<p class="cardheadline">Add-on protection & coveerage</p>
+			<p class="cardheadlinefollow">For more peace of mind</p>
+			<div class="cardmidline">
+			<p><span>✔️</span>Better Car Replacement</p>
+			<p><span>✔️</span>Towing & Labor</p>
+			<p><span>✔️</span>Rental Car Coverage</p>
+			</div>
+			<p class="cardbotline">Earned Benefits</p>
 			<p>Accident Forgiveness1 | New Car Replacement</p>
 		</div>
 
