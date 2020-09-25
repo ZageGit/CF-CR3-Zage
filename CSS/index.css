@@ -1,6 +1,6 @@
 body {
   width: 45%;
-  margin: 2% auto 2% auto;
+  margin: 1% auto 1% auto;
   font-family: 'Roboto', sans-serif; }
 
 header {
@@ -53,12 +53,13 @@ h1 {
 .topcontent {
   display: flex;
   flex-flow: row wrap;
-  background: url("../IMG/traffic-332857_1920.jpg"); }
+  position: relative; }
 
 .middle {
   text-align: center;
   width: 100%;
-  background-color: #CECECE; }
+  background-color: #CECECE;
+  padding-top: 5%; }
 
 .bigtext {
   margin-top: 0;
@@ -86,13 +87,14 @@ h1 {
   width: 30%;
   margin-top: 3%;
   margin-bottom: 3%;
-  padding: 1em;
+  padding: 2%;
   border-top-style: solid; }
 
 .cardheadline {
   color: #5881C1;
   font-size: 1.4em;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  margin-top: 1%; }
 
 .cardheadlinefollow {
   margin-top: 0; }
@@ -113,7 +115,10 @@ footer {
   width: 80%;
   background-color: rgba(255, 255, 255, 0.8);
   border-style: solid;
-  border-color: #787878; }
+  border-color: #787878;
+  position: absolute;
+  top: 10%;
+  left: 10%; }
 
 .inputs {
   color: black;
@@ -143,14 +148,14 @@ footer {
 
 #myButton {
   background-color: #44c767;
-  border-radius: 28px;
+  border-radius: 2em;
   border: 1px solid #18ab29;
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
   font-family: Arial;
-  font-size: 17px;
-  padding: 16px 31px;
+  font-size: 1.5em;
+  padding: 2% 4%;
   text-decoration: none;
   text-shadow: 0px 1px 0px #2f6627; }
 
@@ -176,5 +181,11 @@ footer {
 .footerimg {
   text-align: right;
   padding-right: 2%; }
+
+span {
+  padding-right: 2%; }
+
+.imgtest {
+  width: 100%; }
 
 /*# sourceMappingURL=index.css.map */

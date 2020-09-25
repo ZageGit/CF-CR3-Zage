@@ -26,7 +26,7 @@ console.log((typeof b)+ " " + b);
 console.log((typeof c)+ " " + c);
 console.log((typeof d)+ " " + d);
 console.log((typeof cost)+ " " + cost);
-document.getElementById('result').innerHTML= a + " your insurance costs are " +cost + " €";
+document.getElementById('result').innerHTML= a + " your insurance costs are " + cost + " €";
 return (cost)
 	
 
