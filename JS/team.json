@@ -3,15 +3,15 @@ var employees =[
 	{
 	"name":"Fran",
 	"email":"fran@index.com",
-	"image":"images/person1.png"
+	"image":"IMG/person1.jpg"
 },
 	{
 	"name":"Bill",
 	"email":"bill@index.com",
-	"image":"images/person2.png"
+	"image":"IMG/person2.jpg"
 },
 	{
 	"name":"Fritz",
 	"email":"fritz@index.com",
-	"image":"images/person3.png"
+	"image":"IMG/person3.jpg"
 }]
