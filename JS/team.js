@@ -6,12 +6,12 @@ for (let i = 0; i< employees.length; i++){
 	nose.appendChild(head);
 	head.setAttribute("class","teamcard"+ i);
 	head.addEventListener('click',expand,false)
-	head.innerHTML = ` <img class="teamimg" src='${employees[i].image}'`+ "<br>" + '<p>' + employees[i].name +'</p>'+ '<p>' + employees[i].email +  '</p>' + "<div id=moreInfo"+i+"</div>";
+	head.innerHTML = ` <img class="teamimg${[i]}" src='${employees[i].image}'`+ "<br>" + '<p>' + employees[i].name +'</p>'+ '<p>' + employees[i].email +  '</p>' + "<div id=moreInfo"+i+"</div>";
 	}
 
-	function expand() {
-	document.getElementById("moreInfo").innerHTML = `<p>Name: ${employees.name} </p>  
-      <p>E-Mail: ${employees.email}</p>`;
+	function expand(x) {
+    document.getElementById("moreInfo" + [i]).innerHTML = `<p>name: ${employees[i].name} </p><p>E.Mail: ${employees[i].email}`;
+      
 
 }
 

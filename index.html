@@ -8,110 +8,104 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-
+	<!-- Header including images and navbar -->
 	<header>
 		<div class=headerimages>
 			<img class="headerlogo" src="IMG/logo.png" alt="LOGO">
 			<img class="headerbanner"src="IMG/banner.png" alt="Banner">
 		</div>
-
 		<nav class="navtop">
 			<a class="navbartop" href="index.html">Home</a>
 			<a class="navbartop" href="team.html">Team</a>			
 		</nav>
-
 	</header>
-	<div class="topcontent">
-		<img class="imgtest" src="IMG/traffic-332857_1920.jpg" alt="">
-
-		<div class="container1">
-			<div>
-				<h2 class="inputheader">Great coverage begins with a custom quote</h2>
-			</div>
-			
-
-			<div class="inputs">			
-				<div class="inputcontainer">
-					<div class="yourname">
-						<p class="inputheading">Your name:</p>
-						<input class="inputbox" type="text" name="name_input" placeholder="Your Name" id="name">
-					</div>
+	<main>
+		<!-- Container for the content down to the cards -->
+		<div class="topcontent">
+			<img class="imgtest" src="IMG/traffic-332857_1920.jpg" alt="">
+			<!-- Container of Heading/Inputs/Button and Result  -->
+			<div class="container1">
+				<div>
+					<h2 class="inputheader">Great coverage begins with a custom quote</h2>
 				</div>
-
-				<div class="inputcontainer">
-					<div class="yourname">
-						<p class="inputheading">Age:</p>
-						<input class="inputbox"  type="text" name="age_input" placeholder="Your Age" id="age">
+				<!-- Container for all 4 inputs -->
+				<div class="inputs">	
+					<!-- Container of 1 Input -->		
+					<div class="inputcontainer">
+						<div class="yourname">
+							<p class="inputheading">Your name:</p>
+							<input class="inputbox" type="text" name="name_input" placeholder="Your Name" id="name">
+						</div>
 					</div>
-				</div>
-
-				<div class="inputcontainer">
-					<div class="yourname">
-						<p class="inputheading">Country:</p>
-						<select class="inputbox"  name="Country" id="country">
-	        				<option value="Austria">Austria</option>
-	        				<option value="Hungary">Hungary</option>
-	        				<option value="Greece">Greece</option>     
-	    				</select>
+					<!-- Container of 1 Input -->
+					<div class="inputcontainer">
+						<div class="yourname">
+							<p class="inputheading">Age:</p>
+							<input class="inputbox"  type="text" name="age_input" placeholder="Your Age" id="age">
+						</div>
 					</div>
-				</div>
-
-				<div class="inputcontainer">
-					<div class="yourname">
-						<p class="inputheading">Horsepower of your car:</p>
-						<input class="inputbox"  type="text" name="horsepower_input" placeholder="Horsepower" id="HP">
+					<!-- Container of 1 Input -->
+					<div class="inputcontainer">
+						<div class="yourname">
+							<p class="inputheading">Country:</p>
+							<select class="inputbox"  name="Country" id="country">
+								<option value="Austria">Austria</option>
+								<option value="Hungary">Hungary</option>
+								<option value="Greece">Greece</option>     
+		    				</select>
+						</div>
 					</div>
+					<!-- Container of 1 Input -->
+					<div class="inputcontainer">
+						<div class="yourname">
+							<p class="inputheading">Horsepower of your car:</p>
+							<input class="inputbox"  type="text" name="horsepower_input" placeholder="Horsepower" id="HP">
+						</div>
+					</div>	
 				</div>
-
-				
-		</div>
-				<a href="#" id="myButton">Calculate</a>
-
-				<div id="result"></div>
-		
-			
-		</div>
-		<div class="middle">
-			<div class="middletext">
-				<p class="bigtext">Un-complicating car coverage</p> 
-				<p>Understanding your coverage options shouldnt be so hard
-				We'll guide you through available coverage typesstarting with who and what is covered</p>
+					<!-- Button including Result div on bottom of  Container1-->
+					<a href="#" id="myButton">Calculate</a>
+					<div id="result"></div>
+			</div>
+			<!-- Container of Text under Background IMG -->
+			<div class="middle">
+				<div class="middletext">
+					<p class="bigtext">Un-complicating car coverage</p> 
+					<p>Understanding your coverage options shouldnt be so hard We'll guide you through available coverage typesstarting with who and what is covered</p>
+				</div>
+			</div>
+		</div>	
+		<!-- Container of the 2 Cards -->
+		<div class="cardcontainer">
+			<!-- Card -->
+			<div class="card">
+				<p class="cardheadline">What comes standard</p>
+				<p class="cardheadlinefollow">The coverage you need</p>
+				<div class="cardmidline">
+					<p><span>✔️</span>Bodily Injury Liability</p>
+					<p><span>✔️</span>Property Damage</p>
+					<p><span>✔️</span>Medical Payments</p>
+				</div>
+				<p class="cardbotline">Benefits</p>
+				<p>12-month rate guaranteee | 24/7 customer service | Lifetime Repair Guarantee</p>
+			</div>
+			<!-- Card -->
+			<div class="card">
+				<p class="cardheadline">Add-on protection & coverage</p>
+				<p class="cardheadlinefollow">For more peace of mind</p>
+				<div class="cardmidline">
+				<p><span>✔️</span>Better Car Replacement</p>
+				<p><span>✔️</span>Towing & Labor</p>
+				<p><span>✔️</span>Rental Car Coverage</p>
+				</div>
+				<p class="cardbotline">Earned Benefits</p>
+				<p>Accident Forgiveness1 | New Car Replacement</p>
 			</div>
 
-	</div>
-
-	</div>
-
-	
-
-	<div class="cardcontainer">
-		
-		<div class="card">
-			<p class="cardheadline">What comes standard</p>
-			<p class="cardheadlinefollow">The coverage you need</p>
-			<div class="cardmidline">
-				<p><span>✔️</span>Bodily Injury Liability</p>
-				<p><span>✔️</span>Property Damage</p>
-				<p><span>✔️</span>Medical Payments</p>
-			</div>
-			<p class="cardbotline">Benefits</p>
-			<p>12-month rate guaranteee | 24/7 customer service | Lifetime Repair Guarantee</p>
 		</div>
-		<div class="card">
-			<p class="cardheadline">Add-on protection & coverage</p>
-			<p class="cardheadlinefollow">For more peace of mind</p>
-			<div class="cardmidline">
-			<p><span>✔️</span>Better Car Replacement</p>
-			<p><span>✔️</span>Towing & Labor</p>
-			<p><span>✔️</span>Rental Car Coverage</p>
-			</div>
-			<p class="cardbotline">Earned Benefits</p>
-			<p>Accident Forgiveness1 | New Car Replacement</p>
-		</div>
+	</main>
 
-	</div>
-
-
+	<!-- Footer including images navbar and text -->
 	<footer>
 		<nav class="navbarbot">
 			<a class="navtextbot" href="index.html">Home</a>
@@ -123,11 +117,8 @@
 		<div class="footertext">
 			<p>Johannes Zarre - Codefactory 2020</p>
 		</div>
-
-
 	</footer>
 	
     <script src="JS/index.js"></script>
-
 </body>
 </html>
