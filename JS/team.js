@@ -12,28 +12,27 @@ for (let i = 0; i< empl.length; i++){
 	}
 
 	function expand(x) {
-	document.getElementById("moreInfo" + x).innerHTML = `<p>name:`+ empl[0].name + `</p><p>E.Mail: ${empl[0].email}`;
-	document.getElementById('teamcard'+x).style.width = "30em";
-    document.getElementById('teamcard'+x).style.height = "24em";
+	document.getElementById("moreInfo" + x).innerHTML = `<p>Hobby: `+ empl[x].hobby + `</p><p>Age ${empl[x].age}`;
+	document.getElementById('teamcard'+x).style.width = "60%";
+    
 	}
 
 	function close(y){
     document.getElementById("moreInfo" + y).innerHTML = "";
-    document.getElementById('teamcard'+y).style.width = "15em";
-    document.getElementById('teamcard'+y).style.height = "12em";
+    document.getElementById('teamcard'+y).style.width = "30%";
+    
 }
 
 let test = 2;
 
 for (let i = 0; i < empl.length; i++) {
     document.getElementById("teamcard" + i).addEventListener("click", function () {
-        //this if statment makes sure, that we can repeat the event also after it has been executed x ammounts of time
         if(test % 2 == 0){  
             expand(i);
-            test++;     //will add +1 to the test value making it uneven 
+            test++;     
         }else {
             close(i);
-            test++;     //makes it even again, there fore the for function can be executed again
+            test++;    
         }
         
     }, false);
