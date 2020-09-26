@@ -1,21 +1,29 @@
 
-var employees =[
+var employees =`[
 	{
 	"name":"Fran",
 	"email":"fran@index.com",
-	"image":"IMG/person1.jpg"
+	"image":"IMG/person1.jpg",
+	"age": 30,
+	"hobby":"Fishing"
 },
 	{
 	"name":"Bill",
 	"email":"bill@index.com",
-	"image":"IMG/person2.jpg"
+	"image":"IMG/person2.jpg",
+	"age": 25,
+	"hobby":"Cars"
 },
 	{
 	"name":"Fritz",
 	"email":"fritz@index.com",
-	"image":"IMG/person3.jpg"
+	"image":"IMG/person3.jpg",
+	"age": 28,
+	"hobby":"Gaming"
 },	{
 	"name":"Johannes",
 	"email":"test@index.com",
-	"image":"IMG/person4.jpg"
-}]
+	"image":"IMG/person4.jpg",
+	"age": 32,
+	"hobby":"Coding"
+}]`
