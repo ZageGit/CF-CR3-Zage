@@ -63,7 +63,7 @@ footer {
 	flex-flow: row wrap;
 }
 
-.teamcard0, .teamcard1, .teamcard2, .teamcard3 {
+#teamcard0, #teamcard1, #teamcard2, #teamcard3 {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	padding:2%;
 	border-top-style:solid;
@@ -75,7 +75,7 @@ footer {
 	text-align: center;
 }
 
-.teamimg0, .teamimg1, .teamimg2, .teamimg3,{
+#img0, #img1, #img2, #img3,{
 	width:100%;
 	max-height: 150px;
 }
@@ -94,7 +94,7 @@ p {
 	.headerbanner {
 		display:none;
 	}
-	.teamcard {
+	#teamcard {
 		width:60%;
 	}
 	.headerlogo {
@@ -103,7 +103,7 @@ p {
 		margin-right: auto;
 		font-size: 1em;
 	}
-	.teamcard0, .teamcard1, .teamcard2, .teamcard3 {
+	#teamcard0, #teamcard1, #teamcard2, #teamcard3 {
 		width:50%;
 		font-size: 0.6em;
 		text-align: center;
